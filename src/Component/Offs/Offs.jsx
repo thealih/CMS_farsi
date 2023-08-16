@@ -1,5 +1,7 @@
+import ErrorBox from "../ErrorBox/ErrorBox";
+
 const Offs = () => {
-  return <div></div>;
+  return <ErrorBox msg="هیچ کد تخفیفی یافت نشد" />;
 };
 
 export default Offs;

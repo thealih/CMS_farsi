@@ -1,5 +1,7 @@
+import ErrorBox from "../ErrorBox/ErrorBox";
+
 const Comments = () => {
-  return <div></div>;
+  return <ErrorBox msg="هیچ کامنتی یافت نشد" />;
 };
 
 export default Comments;

@@ -1,5 +1,7 @@
+import ErrorBox from "../ErrorBox/ErrorBox";
+
 const Users = () => {
-  return <div></div>;
+  return <ErrorBox msg="هیچ کاربری یافت نشد" />;
 };
 
 export default Users;

@@ -1,0 +1,47 @@
+.productsMain {
+  margin-top: 60px;
+}
+.productsTitle {
+  font-size: 2rem;
+}
+
+.addProductsForm {
+  margin-top: 30px;
+  background: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 20px;
+  border-radius: 20px;
+}
+.addProductFormWrap {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 15px;
+}
+.addProductsFormGroup {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  width: 100%;
+  background-color: #f4f4f4;
+  /* padding: 0 20px; */
+  border-radius: 10px;
+}
+.addProductsInput {
+  outline: none;
+  border: none;
+  background-color: unset;
+  padding: 8px 10px;
+  font-size: 1rem;
+  width: 100%;
+}
+.addProductsSubmit {
+  background-color: var(--blue);
+  color: var(--white);
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  border-radius: 10px;
+}

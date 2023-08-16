@@ -1,5 +1,7 @@
+import ErrorBox from "../ErrorBox/ErrorBox";
+
 const Orders = () => {
-  return <div></div>;
+  return <ErrorBox msg="هیچ سفارشی یافت نشد" />;
 };
 
 export default Orders;
