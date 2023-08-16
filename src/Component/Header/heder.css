@@ -1,0 +1,84 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 82vw;
+}
+.adminProfile {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+.adminProfile img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.adminProfile div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.adminProfile div h1 {
+  font-size: 1.2rem;
+}
+
+.adminProfile div h3 {
+  color: #858585;
+}
+
+.headerLeftSection {
+  display: flex;
+  column-gap: 20px;
+}
+
+.searchBox {
+  background-color: var(--white);
+  border-radius: 15px;
+  width: 400px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 0 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+}
+
+.searchBox input {
+  outline: none;
+  border: none;
+  background: unset;
+  width: 100%;
+  font-size: 0.9rem;
+  padding: 10px 20px 10px 10px;
+}
+
+.searchBox button {
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  width: 135px;
+  border-radius: 10px;
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 3px 20px;
+  height: 40px;
+}
+
+.headerLeftIcons {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: var(--blue);
+  color: var(--white);
+  width: 40px;
+  height: 40px;
+  box-shadow: rgba(149, 157, 165, 0.8) 0 8px 24px;
+}
+
+.headerLeftIcons svg {
+  font-size: 2rem;
+}

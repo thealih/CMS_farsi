@@ -1,0 +1,29 @@
+@import url("./Reset.css");
+
+@font-face {
+  font-family: Lalezar;
+  src: url(./assets/fonts/Lalezar-Regular.ttf);
+}
+
+@font-face {
+  font-family: Vazirmatn;
+  src: url(./assets/fonts/Vazirmatn-Black.ttf);
+}
+
+:root {
+  --white: #ffffff;
+  --white-50: #f0f0f0;
+  --blue: #471aaa;
+}
+
+body {
+  background-color: var(--white);
+  display: flex;
+  direction: rtl;
+}
+
+*,
+body,
+html {
+  font-family: Vazirmatn;
+}
