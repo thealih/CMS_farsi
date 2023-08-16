@@ -64,6 +64,7 @@
   color: var(--white);
   padding: 3px 20px;
   height: 40px;
+  cursor: pointer;
 }
 
 .headerLeftIcons {
@@ -81,4 +82,5 @@
 
 .headerLeftIcons svg {
   font-size: 2rem;
+  cursor: pointer;
 }

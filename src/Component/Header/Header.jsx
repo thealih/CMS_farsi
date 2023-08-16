@@ -8,7 +8,7 @@ const Header = () => {
       <div className="adminProfile">
         <img src="../../../public/img/saeedi.jpeg" alt="Admin Profile" />
         <div>
-          <h1>محمد امین سعیدی راد</h1>
+          <h1>علی هاشمی</h1>
           <h3>برنامه نویس فرانت اند</h3>
         </div>
       </div>
