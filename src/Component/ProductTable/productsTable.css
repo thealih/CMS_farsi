@@ -1,0 +1,42 @@
+.productsTable {
+  margin-top: 30px;
+  width: 100%;
+  background-color: var(--white);
+  border-radius: 10px;
+}
+.productsTableHeadingTr {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 70px 0 460px;
+}
+.productsTableTr {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px 0 30px;
+}
+.productsTable th {
+  padding: 20px;
+}
+.productsTable td {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.productsTableImg {
+  width: 150px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.productsTableBtn {
+  padding: 8px 20px;
+  font-size: 0.9rem;
+  border-radius: 10px;
+  color: var(--white);
+  background-color: var(--blue);
+  margin-right: 20px;
+  cursor: pointer;
+}
