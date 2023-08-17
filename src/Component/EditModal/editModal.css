@@ -1,0 +1,22 @@
+.editModalForm {
+  width: 400px;
+  padding: 30px;
+  background-color: var(--white);
+  text-align: center;
+}
+
+.editModalForm h1 {
+  font-size: 1.2rem;
+}
+.editModalForm button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 8px 10px;
+  background-color: var(--blue);
+  color: var(--white);
+  font-size: 0.9rem;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}

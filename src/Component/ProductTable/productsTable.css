@@ -40,3 +40,24 @@
   margin-right: 20px;
   cursor: pointer;
 }
+
+/* Start Edit Modals Childs Styles */
+.editProductsFormGroup {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  width: 100%;
+  background-color: #f4f4f4;
+  /* padding: 0 20px; */
+  border-radius: 10px;
+}
+.editProductInput {
+  outline: none;
+  border: none;
+  background-color: unset;
+  font-size: 0.9rem;
+  width: 100%;
+  padding: 8px 10px;
+}
+/* End Edit Modals Childs Styles */
