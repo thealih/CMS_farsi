@@ -1,13 +1,7 @@
-import DeleteModal from "../DeleteModal/DeleteModal";
 import ErrorBox from "../ErrorBox/ErrorBox";
 
 const Comments = () => {
-  return (
-    <>
-      <ErrorBox msg="هیچ کامنتی یافت نشد" />
-      <DeleteModal />
-    </>
-  );
+  return <ErrorBox msg="هیچ کامنتی یافت نشد" />;
 };
 
 export default Comments;

@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="header">
       <div className="adminProfile">
-        <img src="../../../public/img/saeedi.jpeg" alt="Admin Profile" />
+        <img src="/img/saeedi.jpeg" alt="Admin Profile" />
         <div>
           <h1>علی هاشمی</h1>
           <h3>برنامه نویس فرانت اند</h3>
