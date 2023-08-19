@@ -39,6 +39,7 @@
   background-color: var(--blue);
   margin-right: 20px;
   cursor: pointer;
+  border: none;
 }
 
 /* Start Edit Modals Childs Styles */

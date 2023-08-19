@@ -20,6 +20,9 @@ const EditModal = ({ children, onClose, onSubmit }) => {
         <button className="editFormSubmit" onClick={onSubmit}>
           ثبت اطلاعات جدید
         </button>
+        <p className="detailsModalComment">
+          ** برای خارج شدن دکمه Esc را فشار دهید **
+        </p>
       </form>
     </div>
   );
