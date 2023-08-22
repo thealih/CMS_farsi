@@ -14,21 +14,65 @@
   visibility: hidden;
   transition: 0.4s;
 }
+
 .modalParent.active {
   opacity: 1;
   visibility: visible;
 }
 
-.cmsTable {
-  /* margin-top: 20px; */
+.cms-main {
+  margin-top: 60px;
+  padding: 20px;
+  border-radius: 25px;
+}
+.cmsMain {
+  margin-top: 60px;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+.cms-table {
+  margin-top: 20px;
   width: 100%;
   border-radius: 10px;
   background-color: var(--white);
 }
+.cmsTable {
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: var(--white);
+}
+
+.cms-table tr {
+  text-align: center;
+}
 .cmsTable tr {
   text-align: center;
+}
+
+.cms-table th,
+.cms-table td {
+  padding: 20px;
 }
 .cmsTable th,
 .cmsTable td {
   padding: 20px;
+}
+
+.cms-table button {
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 8px 15px;
+  border-radius: 10px;
+  border: none;
+  margin: 0 5px;
+}
+.cmsTable button {
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 8px 15px;
+  border-radius: 10px;
+  border: none;
+  margin: 0 5px;
 }
